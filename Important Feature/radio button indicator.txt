@@ -1,0 +1,8 @@
+     tk.Radiobutton(root, 
+                  text=language,
+                  indicatoron = 0,
+                  width = 20,
+                  padx = 20, 
+                  variable=v, 
+                  command=ShowChoice,
+                  value=val).pack(anchor=tk.W)

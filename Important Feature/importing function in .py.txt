@@ -1,0 +1,29 @@
+You can call functions defined in another file by importing that file.
+
+
+
+===========================================
+reticulator.py:
+===========================================
+def main():
+    print "reticulating splines..."
+    #do stuff here
+    print "splines reticulated"
+
+
+
+===========================================
+gui.py:
+===========================================
+from Tkinter import *
+import reticulator
+
+def openProgram():
+    #call the `main` function defined in the other file
+    reticulator.main()
+
+MGui = Tk()
+MGui.geometry('450x450')
+
+mbutton = Button(text = "Go", command = openProgram).pack()
+MGui.mainloop()

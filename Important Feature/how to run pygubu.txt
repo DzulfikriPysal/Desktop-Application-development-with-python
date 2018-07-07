@@ -1,0 +1,2 @@
+cd C:\Users\User\AppData\Local\Programs\Python\Python35\Scripts
+pygubu-designer.exe

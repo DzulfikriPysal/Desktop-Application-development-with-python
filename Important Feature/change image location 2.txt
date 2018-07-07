@@ -1,0 +1,6 @@
+w = Label(root, 
+          justify=LEFT,
+          compound = LEFT,
+          padx = 10, 
+          text=explanation, 
+          image=logo).pack(side="right")
