@@ -1,3 +1,3 @@
 # Desktop-Application-development-with-python
-using tkinter python
-all necessary syntax in the feature folder
+using tkinter python.
+All necessary syntax in feature folder.
